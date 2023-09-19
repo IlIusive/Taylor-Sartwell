@@ -1,0 +1,545 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: aliceblue !important;
+    background: linear-gradient(to bottom, #111215, #181a1f);
+    flex-wrap: nowrap;
+    text-decoration: none !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Starting with Consistent Attributes for all pages */
+
+
+
+
+/* NAV BAR */
+
+.top-navbar { 
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #131415;
+    z-index: 100;
+    font-family:'Lato', sans-serif;
+}
+
+.top-navbar ul {
+    margin-bottom: 5px;
+}
+
+.top-navbar li {
+    font-size: 17px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.top-navbar a {
+    text-decoration: none;
+    transition: color .4s ease;
+    color: aliceblue;
+    padding: 0px 12px;
+    padding-bottom: 4.5px;
+}
+
+.top-navbar a:hover {       /* Links glow blue upon mouse hover */
+    transition: color .3s ease;
+    color: rgb(68, 193, 255);
+    
+  }
+
+
+.navbar-brand {     /* TM-Sartwell.com in the Top Left*/
+    position: absolute;
+    right: 89%;
+}
+
+
+
+/* Current Page glows Blue with a gray border in the Nav Bar*/
+
+.active {
+    font-weight: bold;
+    color: rgb(68, 193, 255) !important;
+    border: solid rgba(138, 138, 138, 0.50);
+    border-top: 1px;
+    border-bottom: 1px;
+}
+
+
+
+/* NAV BAR ICON CSS */
+
+.top-navbar-contact {
+    display: flex;
+    position: absolute;
+    right: 84%; /* 84% */
+}
+
+.top-navbar-contact a {
+    color: gray;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.top-navbar-contact a:hover {
+    color: rgb(138, 201, 255); 
+}
+
+/* END NAV BAR ICON CSS */
+
+
+
+/* END of NAV BAR */
+
+
+
+
+
+
+
+/* Unique to Profile Page */
+
+.profile-section {
+    margin-top: 1.7%;
+    padding-top: 6%;
+    padding-bottom: 20%;
+    display: flex;
+    justify-content: center;
+}
+.profile-section img {  /*Profile Picture for Taylor*/
+    opacity: .9;
+    width: 22%;
+}
+
+.profile-section::before {
+    background-image: url(https://images.ctfassets.net/pdf29us7flmy/56bRpX3zcf3ykjwGAwwPIf/c6300affd7899e0edbe67b0f5b0fb3fd/engineering-technician-machine.jpg);
+    filter: brightness(20%);
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
+
+
+/* Unique to Profile Page */
+/* First+Last Name, Role & Contact Icons */
+
+#name {   
+    padding-left: 2%;
+    margin-right: 4%;
+}
+
+#name h1{
+    font-size: 3.4em;
+}
+
+#name p{
+    font-size: 2em;
+    font-family: "Century Gothic";
+}
+
+.about h3 {
+    margin-top: 8%;
+    font-size: large;
+}
+
+.about p {
+    font-size: .9em !important;
+    font-family: 'Montserrat', sans-serif !important;
+    position: absolute;
+    margin-right: 19%;
+    line-height: 27px;
+    word-spacing: .8px;
+}
+
+.arrow {
+    max-width: 6%;
+    position: absolute;
+    top: 85%;
+    left: 47%;
+}
+
+
+
+
+
+/* Profile ICON CSS */
+
+.profile-contact {
+    display: flex;
+    padding-right: 25%;
+    justify-content: space-around;
+}
+
+.profile-contact a {
+    color: gray;
+}
+
+.profile-contact a:hover {
+    color: rgb(138, 201, 255); 
+}
+
+
+
+
+
+
+
+
+  /* Parallax scrolling effect */
+
+  .background-container-profile {
+    position: relative;
+    padding-bottom: 13%;
+    min-height: 600px;
+    background-image: url('Resources/Profile/Graduation-Photo4.png');
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+
+    opacity: .8;
+    z-index: -1; /* Places the background behind other content */
+  }
+
+
+/* END PROFILE PAGE */
+
+
+
+
+
+
+
+
+
+
+
+/* All Pages */
+
+
+
+#footer {
+    padding-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+/* Unique to Work, Edu, Projects and ... Hydro Hero */
+
+.container {
+    display: flex;
+    padding-top: 7.2%;
+    padding-bottom: 1%;
+}
+
+
+
+.container h2 {
+    font-size: larger;
+}
+
+.container sup {
+    font-size: x-small;
+    font-weight: 100;
+}
+
+.container-left {
+    flex: 1;
+    position: static;
+
+}
+ 
+.container-left .display-6 {
+    font-size: 20px;
+    border-bottom: solid rgb(255, 198, 27) 2px;
+    display: inline; /* This forces the orange border to be adaptible for ANY text */
+    margin-left: 120px;
+    padding-bottom: 5px;
+    
+}
+
+.container-left p {
+    padding-bottom: 5px;
+}
+
+.container-left img {
+    width: 35%;
+    border-radius: 50%;
+}
+
+
+.container-right {
+    flex: 2;
+    /* border: solid white; */
+    position: static;
+    margin-right: 20%;
+    margin-left: 50px;
+}
+
+.container-right p, em, li {
+    color: rgba(249, 249, 255, 0.826);
+    line-height: 30px;
+    word-spacing: .5px;
+}
+
+.collective-title {
+    color: rgb(255, 198, 27);
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+/* On Work Experience Page*/
+
+.container-left .General-Dynamics-image {
+    position: relative;
+    left: 35%;
+    top: 29%;
+}
+
+.container-left .MBTA-image {
+    position: relative;
+    left: 35%;
+    top: 5%;
+}
+
+.container-left .CES-image {
+    position: relative;
+    top: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+/* Certifications on Education Page */
+.container-right-cert .sme {
+    max-width: 60%;
+}
+
+.container-right-cert .dass {
+    max-width: 74.9%;
+}
+
+
+.container-right-cert {
+    flex: 2;
+    position: static;
+    margin-right: 20%;
+    margin-left: 50px;
+}
+
+.container-right-cert p, em, li {
+    color: rgba(249, 249, 255, 0.826);
+    line-height: 30px;
+    word-spacing: .5px;
+}
+
+.container-right-cert ul {
+    flex: 1;
+    text-align: center;
+}
+
+.container-right-cert li {
+    
+    padding: 10px;
+}
+
+
+
+
+/* Award Section on Education Page */
+
+.award-img {  /* */
+    max-width:  60%;
+  }
+
+
+
+
+
+
+
+/* Unique to Projects Page */
+
+.project-navigation {
+    position: fixed;
+    top: 22%;
+    left: 82%;
+}
+
+.project-navigation a {
+    color: aliceblue;
+}
+
+
+.project-navigation a:hover {
+    color: rgb(68, 193, 255);
+    background-color: rgba(185, 232, 255, 0.045);
+}
+
+.project-navigation .nav-link.active {
+    border-left: solid rgba(255, 216, 77, 0.834);
+    color: rgb(68, 193, 255) !important;
+    background-color: rgba(131, 214, 255, 0.077) !important;
+}
+
+
+
+
+
+
+/* Unique to HYDRO HERO Page */
+
+.background-container-hydro {
+    background-image: url('Resources/Hydro-Hero/Hydro\ Hero\ Showcase3.jpg');
+    position: relative;
+    padding-bottom: 1%;
+    padding-top: 25%;
+    margin-bottom: 4%;
+    min-height: 470px;
+    top: 50%;
+    
+    /*background-position: center; */
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    opacity: .919;
+    z-index: -1; /* Places the background behind other content */
+  }
+
+  .background-container-hydro .hydro-header {
+    color: white;
+    border-left: 5px solid rgb(101, 204, 235);
+    background-color: rgba(0, 0, 0, 0.359);
+    display: inline-block;
+
+    font-weight: 800;
+    filter: contrast(140%) !important;
+
+    border-radius: .7rem;
+    margin-right: 50%;
+    padding-left: 1%;
+    margin-left: 1%;
+  }
+
+  .container-hydro {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+
+        
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". ."
+          ". .";
+      
+  }
+
+  .container-hydro .text-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* This will center the text vertically */
+    background-color: rgba(58, 146, 205, 0.071);
+    padding: 130px;
+    gap: 10%;
+    position:relative;
+  }
+  
+
+
+
+
+  .wireframe-image {
+    background-image: url('Resources/Hydro-Hero/Hydro\ Hero\ Showcase3.jpg');
+    position: relative;
+    
+    min-height: 530px;
+    
+    
+    /*background-position: center; */
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    opacity: .919;
+    z-index: -1; /* Places the background behind other content */
+  }
+
+
+
+  .dev-image {
+    background-image: url('Resources/Hydro-Hero/Hydro\ Hero\ Showcase3.jpg');
+    position: relative;
+    
+    min-height: 550px;
+    
+    
+    /*background-position: center; */
+    background-repeat: no-repeat;
+    background-size:cover;
+
+    opacity: .919;
+    z-index: -1; /* Places the background behind other content */
+  }
+
+
+
+
+  .hydro-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+    
+  }
+  
+  .grid-item {
+    flex: 1 0 21%; /* The browser selects a flex basis of 21%, and the box will shrink and grow according to the width of the viewport */
+    margin: 1%;
+    list-style-type: none;
+
+    padding: 4%;
+  }
+  
+  .grid-item img {
+    width: 100%;
+  }
+  
+  @media screen and (max-width:600px) {
+    .grid-item {
+      flex-basis: 100%;
+      margin: 2% 0;
+    }
+  }
