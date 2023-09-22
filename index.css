@@ -552,7 +552,7 @@ body {
 
 
 
-  .background-container-hydro {
+  .background-container-hydro-video {
     position: relative;
     padding-bottom: 13%;
     min-height: 600px;
@@ -560,7 +560,7 @@ body {
     z-index: -1; /* Places the background behind other content */
 }
 
-.background-container-hydro video {
+.background-container-hydro-video video {
     position: absolute;
     width: 100%;
     height: 100%;
