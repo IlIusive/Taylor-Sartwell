@@ -205,7 +205,7 @@ body {
     position: relative;
     padding-bottom: 13%;
     min-height: 600px;
-    background-image: url('Resources/Profile/Graduation-Photo4.png');
+    background-image: url('Resources/Profile/Graduation-Photo.png');
 
     background-attachment: fixed;
     background-position: center;
@@ -383,6 +383,7 @@ body {
 
 .award-img {  /* */
     max-width:  60%;
+    margin-left: 15% ;
   }
 
 
