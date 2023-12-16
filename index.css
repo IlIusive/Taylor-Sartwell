@@ -15,15 +15,9 @@ body {
 
 /* Begin Responsive Design */
 
+/* Each section will have its own @media query for mobile devices */
 
-
-/* DEFAULT QUERY BELOW */
-/* FOR LAPTOP/DESKTOP SCREENS: */
-
-/* SCROLL TO BOTTOM FOR "PHONE / TABLET QUERY" */
-
-
-/* BEGIN DEFAULT QUERY */
+/* For example, the nav bar will have @media below to display a drop down menu in the top right, it glows, fading white and blue to draw attention */
 
 /* NAV BAR */
 
@@ -578,15 +572,3 @@ body {
     object-fit: cover;
 }
 
-
-
-
-
-
-/* BEGIN PHONE QUERY */ 
-
-@media (min-width: 992px) {
-
-}
-
-/* END DEFAULT DESKTOP QUERY */
