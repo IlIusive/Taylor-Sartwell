@@ -1,3 +1,5 @@
+/* Starting with Consistent Attributes for all pages */
+
 html {
     scroll-behavior: smooth;
 }
@@ -10,8 +12,15 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Starting with Consistent Attributes for all pages */
 
+/* Begin Responsive Design */
+
+
+
+/* DEFAULT QUERY */
+/* FOR LAPTOP/DESKTOP SCREENS */
+
+/* SCROLL TO BOTTOM FOR "PHONE / TABLET QUERY" */
 
 
 
@@ -567,3 +576,16 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
+
+
+
+
+
+/* PHONE QUERY * / 
+
+@media (min-width: 992px) {
+
+}
+
+/* END DEFAULT DESKTOP QUERY */
