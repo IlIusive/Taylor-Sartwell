@@ -17,12 +17,13 @@ body {
 
 
 
-/* DEFAULT QUERY */
-/* FOR LAPTOP/DESKTOP SCREENS */
+/* DEFAULT QUERY BELOW */
+/* FOR LAPTOP/DESKTOP SCREENS: */
 
 /* SCROLL TO BOTTOM FOR "PHONE / TABLET QUERY" */
 
 
+/* BEGIN DEFAULT QUERY */
 
 /* NAV BAR */
 
@@ -582,7 +583,7 @@ body {
 
 
 
-/* PHONE QUERY * / 
+/* BEGIN PHONE QUERY */ 
 
 @media (min-width: 992px) {
 
