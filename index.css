@@ -318,6 +318,28 @@ body {
 
 
 
+/* On Work Experience Page*/
+
+.container-left .General-Dynamics-image {
+    position: relative;
+    left: 35%;
+    top: 29%;
+}
+
+.container-left .MBTA-image {
+    position: relative;
+    left: 35%;
+    top: 5%;
+}
+
+.container-left .CES-image {
+    position: relative;
+    top: 60%;
+}
+
+
+
+
 
 /* UNIQUE to Education University Header */
 
@@ -347,40 +369,6 @@ body {
 .container-left-uni p {
     padding-bottom: 5px;
 }
-
-
-
-
-
-
-
-
-
-
-/* On Work Experience Page*/
-
-.container-left .General-Dynamics-image {
-    position: relative;
-    left: 35%;
-    top: 29%;
-}
-
-.container-left .MBTA-image {
-    position: relative;
-    left: 35%;
-    top: 5%;
-}
-
-.container-left .CES-image {
-    position: relative;
-    top: 60%;
-}
-
-
-
-
-
-
 
 
 
