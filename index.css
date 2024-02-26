@@ -271,8 +271,7 @@ body {
 
 .container-left {
     flex: 1;
-    position: static;
-
+    position: ; /* Was previously static */
 }
  
 .container-left .display-6 {
@@ -312,6 +311,45 @@ body {
     color: rgb(255, 198, 27);
     font-size: 30px;
 }
+
+
+
+
+
+
+
+
+/* UNIQUE to Education University Header */
+
+.container-left-uni .Wentworth-Photo {
+    width: 80% ;
+    position: relative;
+    left: 8%;
+    top: 20%;
+    
+}
+
+.container-left-uni {
+    flex: 1;
+    position: ; /* Was previously static */
+
+}
+ 
+.container-left-uni .display-6 {
+    font-size: 20px;
+    border-bottom: solid rgb(255, 198, 27) 2px;
+    display: inline; /* This forces the orange border to be adaptible for ANY text */
+    margin-left: 120px;
+    padding-bottom: 5px;
+    
+}
+
+.container-left-uni p {
+    padding-bottom: 5px;
+}
+
+
+
 
 
 
