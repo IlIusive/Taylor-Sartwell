@@ -271,7 +271,6 @@ body {
 
 .container-left {
     flex: 1;
-    /* Previously position: static */
 }
  
 .container-left .display-6 {
@@ -287,10 +286,7 @@ body {
     padding-bottom: 5px;
 }
 
-.container-left img {
-    width: 35%;
-    border-radius: 50%;
-}
+
 
 
 .container-right {
@@ -318,23 +314,32 @@ body {
 
 
 
+
+
+
 /* On Work Experience Page*/
 
 .container-left .General-Dynamics-image {
     position: relative;
     left: 35%;
     top: 29%;
+    width: 35%;
+    border-radius: 50%;
 }
 
 .container-left .MBTA-image {
     position: relative;
     left: 35%;
     top: 5%;
+    width: 35%;
+    border-radius: 50%;
 }
 
 .container-left .CES-image {
     position: relative;
     top: 60%;
+    width: 35%;
+    border-radius: 50%;
 }
 
 
@@ -343,31 +348,11 @@ body {
 
 /* UNIQUE to Education University Header */
 
-.container-left-uni .Wentworth-Photo {
+.container-left .Wentworth-Photo {
     width: 80% ;
     position: relative;
     left: 8%;
     top: 20%;
-    
-}
-
-.container-left-uni {
-    flex: 1;
-    /* Previously position: static */
-
-}
- 
-.container-left-uni .display-6 {
-    font-size: 20px;
-    border-bottom: solid rgb(255, 198, 27) 2px;
-    display: inline; /* This forces the orange border to be adaptible for ANY text */
-    margin-left: 120px;
-    padding-bottom: 5px;
-    
-}
-
-.container-left-uni p {
-    padding-bottom: 5px;
 }
 
 
