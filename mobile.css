@@ -4,11 +4,71 @@
 
 /* ATTENTION */
 
-/* ATTENTION */
 
 /* THIS IS CODE USED TO MODIFY STYLES FOR PHONES. */
 
-/* ATTENTION */
+
+/* Begin Responsive Mobile Design */
+
+
+/* 
+    Dev Testing: 
+    On line 47
+    Going Desktop to Mobile makes text red 
+    Just so I know it has recieved any changes
+*/
+
+    
+
+    
+    /* Phone Screen Mobile Query */
+
+    @media only screen and (max-width: 600px) {
+
+    
+    p {
+        color: red;
+    }
+
+
+
+    /* Global */
+
+    img {
+        max-width: 100%;
+        max-height: auto;
+}
+
+    .profile-section img {
+        max-width: 1px;
+    }
+
+
+
+
+
+
+    /* Unique to index.html*/
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ATTENTION */
 
@@ -16,4 +76,15 @@
 
 /* ATTENTION */
 
-/* THIS IS CODE USED TO MODIFY CSS STYLES FOR PHONES. */
+
+    /* THIS IS CODE USED TO MODIFY STYLES FOR PHONES. */
+
+
+/* ATTENTION */
+
+/* ATTENTION */
+
+/* ATTENTION */
+
+
+    /* THIS IS CODE USED TO MODIFY CSS STYLES FOR PHONES. */
