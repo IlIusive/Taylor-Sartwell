@@ -44,7 +44,7 @@
 
 
       <!-- Mobile Dropdown Menu -->
-      <div class="mobile-dropdown-icon">
+      <div class="mobile-only-dropdown-icon">
         
         <!-- dropstart button -->
       <div class="dropdown">
@@ -55,7 +55,6 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
             </svg>
-            
           </button>
 
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
@@ -86,7 +85,8 @@
 
 
     <div class="profile-section">
-        <img class="img-fluid rounded-circle" src="Resources/Profile/Graduation-PFP.png">
+        <!-- Removed from Mobile View -->
+        <img class="img-fluid rounded-circle mobile-removal" src="Resources/Profile/Graduation-PFP.png">
         <div id="name">
             <h1>Taylor Sartwell</h1>
             <p>Mechanical Engineer</p>
@@ -127,7 +127,8 @@
 </div>
 
 
-    <div class="about">
+
+    <div class="about mobile-removal"> <!-- Desktop View-->
         <h3>About</h3>
             <p> 
                 I recently graduated in Mechanical Engineering from Wentworth Institute of Technology, specializing in Robotics and Manufacturing. 
@@ -137,14 +138,36 @@
             My passion lies in staying updated with the latest advancements in Technology, particularly in Robotics and Manufacturing. 
             <br><br>Beyond academics, I enjoy video editing, songwriting, and snowboarding!
             </p>
-
-            
     </div>
+
     </div>
 </div>
 
+<a href="#description-unique"><img class="arrow" src="Resources/Profile/arrow.png"></a>
 
-<a href="#footer-unique"><img class="arrow" src="Resources/Profile/arrow.png"></a>
+
+<div class="about mobile-only-view"> <!--Mobile View-->
+
+    <h3 id="description-unique">College</h3>
+        <p style="padding-top: 9%;"> 
+            I recently graduated in Mechanical Engineering from Wentworth Institute of Technology, specializing in Robotics and Manufacturing. 
+        <br><br>Notably, I designed the <a href="Hydro-Hero.html">Hydro Hero</a> water-cleaning robot for my University Capstone project. 
+        With certifications held in Manufacturing Technologist, Additive Manufacturing Fundamentals, and SolidWorks Associate.
+        </p>
+</div>
+
+    <div class="about mobile-only-view"> <!--Mobile View-->
+
+        <h3 style="padding-top: 60%;">Now</h3>
+            <p> 
+            <br><br>Currently, I work as a Structural Engineer at General Dynamics Electric Boat. 
+            My passion lies in staying updated with the latest advancements in Technology, particularly in Robotics and Manufacturing. 
+            <br><br>Beyond academics, I enjoy video editing, songwriting, and snowboarding!
+            </p>
+    </div>
+
+
+<a href="#footer-unique"><img class="arrow mobile-removal" src="Resources/Profile/arrow.png"></a>
 
 <!--END-->
 
