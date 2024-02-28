@@ -162,8 +162,8 @@
 
 .top-navbar-contact {
     display: flex;
-    position: absolute;
-    right: 84%; /* 84% */
+    position: static;
+    right: ; /* 84% */
 }
 
 .top-navbar-contact a {
