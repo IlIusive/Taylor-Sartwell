@@ -11,37 +11,193 @@
 /* Begin Responsive Mobile Design */
 
 
-/* 
-    Dev Testing: 
-    On line 47
-    Going Desktop to Mobile makes text red 
-    Just so I know it has recieved any changes
-*/
 
-    
+
+    /* Blocking desktop view of Mobile Dropdown Menu */
+
+    .mobile-dropdown-icon {
+        display: none;
+    }
+
+
 
     
     /* Phone Screen Mobile Query */
 
     @media only screen and (max-width: 600px) {
 
-    
-    p {
-        color: red;
-    }
 
-
-
-    /* Global */
+    /* Global Responsive Code */
 
     img {
         max-width: 100%;
         max-height: auto;
+    }
+
+    div {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+
+    /* MOBILE NAV BAR (ALL PAGES)           copied over from index.css      Modified to fit mobile completely    */
+
+
+
+
+    /* Blocking view of Desktop navbar page links on Mobile */
+    .mobile-removal {
+        display: none;
+    }
+
+    /* Allowing mobile icon to be viewable from block on line 54 */
+    .mobile-dropdown-icon {
+        display: contents;   
+        color: aliceblue;
+    }
+
+    
+
+
+        /* Direct Bootstrap code for the Icon & its contents */
+    .dropdown {
+        display: flex;
+        justify-content: end;
+        color: rgb(116, 209, 255);
+        border: none;
+        
+    }
+
+    .dropdown .btn {
+        color: aliceblue;
+    }
+
+
+
+        /* Direct Bootstrap code for the DROPDOWN MENU that is toggled on and off */
+    .dropdown-menu {
+        background: linear-gradient(to bottom, #111215, #181a1f) !important;
+    }
+
+
+
+
+.top-navbar { 
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    /* position: fixed ;*/
+    /* top: 100px ; */
+    width: 100%;
+    background-color: rgba(27, 27, 32, 0.489) ;
+    /* background: linear-gradient(to bottom, rgb(27, 27, 32), #101215); */
+    
+    /* opacity: 50%; */
+    
+    font-family:'Lato', sans-serif;
 }
 
-    .profile-section img {
-        max-width: 1px;
-    }
+
+
+.top-navbar a {
+    font-size: 19px;
+    text-decoration: none;
+    /* transition: color .4s ease; */
+    color: aliceblue;
+    /* padding: 0px 12px; */
+    /* padding-bottom: 4.5px; */
+}
+
+
+
+.top-navbar a:active {       
+    transition: color .1s ease;
+    color: rgb(68, 193, 255); /* Links glow blue upon mobile click! */
+    
+  }
+
+
+
+  .dropdown-menu li {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+
+
+/* TM-Sartwell.com in the Top Left, now removed*/
+.navbar-brand {     
+    position:static;
+    
+    
+    /* position: absolute;
+    right: 89%; */
+}
+
+
+
+
+/* Current Page glows Blue with a gray border in the Nav Bar*/
+
+.active {
+    font-weight: bold;
+    color: rgb(68, 193, 255) !important;
+    border: solid rgba(138, 138, 138, 0.50);
+    border-top: 1px;
+    border-bottom: 1px;
+}
+
+
+
+
+
+
+/* NAV BAR CONTACT ICON CSS */    /* Must be unique for index.html*/
+
+.top-navbar-contact {
+    display: flex;
+    position: absolute;
+    right: 84%; /* 84% */
+}
+
+.top-navbar-contact a {
+    color: gray;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.top-navbar-contact a:active {
+    background-color: rgb(138, 201, 255); 
+}
+
+/* END NAV BAR ICON CSS */
+
+
+
+/* END of NAV BAR */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -52,8 +208,26 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
 }
 
+/* END OF PHONE SCREEN QUERY */
 
 
 

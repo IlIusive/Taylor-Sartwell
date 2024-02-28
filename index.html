@@ -30,8 +30,10 @@
 <!--Nav Bar -->
 <nav class="top-navbar">
     <span class=""></span>
-    <a class="navbar-brand" href="#">TMSartwell.github.io</a>
-    <ul>
+    
+
+    <!-- Removes page links from mobile screens -->
+    <ul class="mobile-removal">
         <li><a href='#' class="active">Profile</a></li>
         <li><a href='Work-Experience.html'>Experience</a></li>
         <li><a href='Education.html'>Education</a></li>
@@ -39,6 +41,42 @@
         <li><a href='Hydro-Hero.html'>Hydro Hero</a></li>
         <li><a href='#'>Volunteering</a></li>
     </ul>
+
+
+
+      <!-- Mobile Dropdown Menu -->
+      <div class="mobile-dropdown-icon">
+        
+        <!-- dropstart button -->
+      <div class="dropdown">
+          <button class="btn " type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+          
+
+          <!-- Dropdown Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+            
+          </button>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+              <!-- Mobile Dropdown menu links go here -->
+              <li><a href='#' class="active">Profile</a></li>
+              <li><a href='Work-Experience.html'>Experience</a></li>
+              <li><a href='Education.html'>Education</a></li>
+              <li><a href='Projects.html'>Projects</a></li>
+              <li><a href='Hydro-Hero.html'>Hydro Hero</a></li>
+              <li><a href='#'>Volunteering</a></li>
+
+          </ul>
+          </div>
+
+          
+
+
+      </div>
+
+
 </nav>  
 
 <!-- END NAV BAR -->
