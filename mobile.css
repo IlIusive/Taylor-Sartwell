@@ -26,6 +26,9 @@
 
 
     
+
+
+
     /* Phone Screen Mobile Query */
 
     @media only screen and (max-width: 600px) {
@@ -44,26 +47,26 @@
     }
 
 
+    .mobile-removal {   /* Blocking view on Mobile */
+        display: none;
+    }
+
+    .mobile-only-view {     /* Viewable only on Mobile*/
+        display: contents;
+    }
+
+
+
+
 
 
     /* MOBILE NAV BAR (ALL PAGES)           copied over from index.css      Modified to fit mobile completely    */
-
-    
-    .mobile-removal {   /* Blocking view of Desktop navbar page links on Mobile */
-        display: none;
-    }
 
     
     .mobile-only-dropdown-icon {     /* Allowing mobile icon to be viewable */
         display: contents;   
         color: aliceblue;
     }
-
-    .mobile-only-view {
-        display: contents;
-    }
-
-    
 
 
       
@@ -288,14 +291,21 @@
 
 
 
-  /* Parallax scrolling effect          Near bottom of page*/
 
-  .background-container-profile {
+
+
+
+
+
+  /* Parallax scrolling effect          Near bottom of page */
+
+
+  .background-container-graduation {
     position: relative;
     margin-top: 63.5%;
     padding-bottom: 13%;
     min-height: 600px;
-    background-image: url('Resources/Profile/Graduation-Photo.png');
+    background-image: url('Resources/Profile/Graduation-Photo-mobile.png');
 
     background-attachment: fixed;
     background-position: center;
@@ -309,21 +319,7 @@
 
 
 
-
-
 /* END PROFILE PAGE */
-
-
-
-
-
-
-
-
-
-
-
-
     
 
 
