@@ -208,7 +208,7 @@
     
     background-repeat: no-repeat;
 
-    filter: brightness(65%);
+    filter: brightness(70%);
     opacity: 1;
     z-index: -1; 
 }
@@ -282,40 +282,12 @@
     margin-right: 4%;
 }
 
+.mobile-padding {
+    padding-top: 80%;
+}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-  /* Parallax scrolling effect          Near bottom of page */
-
-
-  .background-container-profile {
-    position: relative;
-    margin-top: 63.5%;
-    padding-bottom: 13%;
-    min-height: 600px;
-    background-image: url('Resources/Profile/Graduation-Photo-mobile-copy.png');
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-
-    
-    opacity: .65;
-    z-index: -1; /* Places the background behind other content */
-  }
 
 
 
@@ -324,12 +296,36 @@
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       /* END OF PHONE SCREEN QUERY */
 
 /* END OF PHONE SCREEN QUERY */
 
+}       /* END OF PHONE SCREEN QUERY */
 
+/* END OF PHONE SCREEN QUERY */
 
+       /* END OF PHONE SCREEN QUERY */
 
 
 
