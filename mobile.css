@@ -59,7 +59,6 @@
 
 
 
-
     /* MOBILE NAV BAR (ALL PAGES)           copied over from index.css      Modified to fit mobile completely    */
 
     
@@ -104,6 +103,8 @@
     /* opacity: 50%; */
     
     font-family:'Lato', sans-serif;
+
+    position: fixed;
 }
 
 
@@ -299,6 +300,95 @@
 
 
 
+
+
+
+
+
+
+
+
+
+/* Unique to Work, Edu, Projects and ... Hydro Hero */
+
+.container-mobile {
+   /* display: flex; */   /*    THIS IS THE SOURCE OF THE AWKWARD STYLIZATION */
+
+    max-width: 100%;
+}
+
+
+.container-left-mobile {
+    /* flex: 1; */
+    margin-top: 21%;
+    padding-left: 3%;
+}
+ 
+.container-left-mobile .display-6 {
+    font-size: 2.3em;
+    border-bottom: solid rgb(255, 198, 27) 2px;
+    display: inline; /* This forces the orange border to be adaptible for ANY text */
+    /* margin-left: 120px; */
+}
+
+.container-left-mobile p {
+    padding-bottom: 5px;
+}
+
+
+.container-right-mobile {
+    /* flex: 2; */
+    /* border: solid greenyellow; */
+    
+    padding-left: 3%;
+    padding-right: 3%;
+    /* margin-left: 50px; */
+}
+
+.container-right-mobile p, em, li {
+    color: rgba(249, 249, 255, 0.826);
+    line-height: 30px;
+    word-spacing: .5px;
+}
+
+.collective-title {
+    color: rgb(255, 198, 27);
+    font-size: 2em;
+}
+
+.collective-title-under {
+    color: rgba(255, 206, 58, 0.934) !important;
+    font-style: italic;
+}
+
+
+
+/* On Work Experience Page*/
+
+.container-left-mobile .General-Dynamics-image {
+    position:relative;
+
+    left: 35%;
+    margin-bottom: 7%;
+    max-width: 25%;
+    border-radius: 50%;
+}
+
+.container-left-mobile .MBTA-image {
+    position: relative;
+
+    left: 35%;
+    max-width: 25%;
+    border-radius: 50%;
+}
+
+.CES-image {
+    position: relative;
+
+    left: 35%;
+    max-width: 25%;
+    border-radius: 50%;
+}
 
 
 
