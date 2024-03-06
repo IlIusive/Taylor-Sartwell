@@ -399,6 +399,71 @@
 
 
 
+/* UNIQUE to Education University Header */
+
+.container-left-mobile .Wentworth-Photo {
+    position: relative;
+
+    max-width: 70%;
+    left: 12%;
+    border-bottom-right-radius: 1800%;
+    border-bottom-left-radius: 1800%;
+    border-top-right-radius: 35%;
+    border-top-left-radius: 20%;
+}
+
+
+
+
+/* Certifications on Education Page */
+
+.container-right-cert-mobile {
+    margin-top: 6%;
+    margin-bottom: 25%;
+}
+
+.container-right-cert-mobile p, em, li {
+    color: rgba(249, 249, 255, 0.826);
+    line-height: 30px;
+    word-spacing: 20%;
+    padding-top: 4%;
+}
+
+.container-right-cert-mobile ul {
+    text-align: center;
+}
+
+
+.container-right-cert-mobile .sme {
+    max-width: 50%;
+}
+
+.container-right-cert-mobile .dass {
+    padding-top: 10%;
+    max-width: 60%;
+}
+
+
+
+
+/* Award Section on Education Page */
+
+.container-right-mobile .award-img-mobile { 
+    
+    max-width:  95%;
+    margin-left:  2.5%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+  }
+
+
+
+
+
+
+
+
+
 
 
 
