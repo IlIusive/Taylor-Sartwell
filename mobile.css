@@ -160,7 +160,7 @@
 
 
 
-/* NAV BAR CONTACT ICON CSS */      /* Must be unique for index.html, line 259*/
+/* MOBILE NAV BAR CONTACT ICON CSS */
 
 .top-navbar-contact {
     display: flex;
@@ -193,7 +193,7 @@
 
 
 
-/* Unique to Profile Page */
+/* Unique to MOBILE Profile Page */
 
 .profile-section {
     margin-top: 88%;
@@ -215,7 +215,7 @@
 }
 
 
-/* Profile ICON CSS */
+/* MOBILE Profile ICON CSS */
 
 .profile-contact {
     display: flex;
@@ -239,7 +239,7 @@
 
 
 
-/* Profile Text Style:     First+Last Name,    Engineer Title    */
+/* MOBILE Profile Text Style:     First+Last Name,    Engineer Title    */
 
 #name {   
     padding-left: 2%;
@@ -259,7 +259,7 @@
 
 
 
-/* Profile Description */
+/* MOBILE Profile Description */
 
 .about h3 {
     margin-top: 8%;
@@ -293,7 +293,6 @@
 
 
 /* END PROFILE PAGE */
-    
 
 
 
@@ -309,7 +308,8 @@
 
 
 
-/* Unique to Work, Edu, Projects and ... Hydro Hero */
+
+/* Unique to MOBILE Work, Edu, Projects and ... Hydro Hero */
 
 .container-mobile {
    /* display: flex; */   /*    THIS IS THE SOURCE OF THE AWKWARD STYLIZATION */
@@ -363,7 +363,17 @@
 
 
 
-/* On Work Experience Page*/
+
+
+
+
+
+
+
+
+
+
+/* On MOBILE Work Experience Page*/
 
 .container-left-mobile .General-Dynamics-image {
     position:relative;
@@ -399,7 +409,15 @@
 
 
 
-/* UNIQUE to Education University Header */
+
+
+
+
+
+
+
+
+/* UNIQUE to MOBILE Education University Header */
 
 .container-left-mobile .Wentworth-Photo {
     position: relative;
@@ -415,7 +433,7 @@
 
 
 
-/* Certifications on Education Page */
+/* Certifications on MOBILE Education Page */
 
 .container-right-cert-mobile {
     margin-top: 6%;
@@ -446,7 +464,7 @@
 
 
 
-/* Award Section on Education Page */
+/* Award Section on MOBILE Education Page */
 
 .container-right-mobile .award-img-mobile { 
     
@@ -458,6 +476,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
